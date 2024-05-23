@@ -1,18 +1,11 @@
-const dasturchi = {
-    name : "Bunyodbek",
-    yosh : 25,
-    malumoti : "maktab"
+let name = prompt("Ismigizni kiriting")
+let login = prompt("Spase logini kiriting")
+let password = prompt("Spase password kiriting")
+
+const Maluot = {
+    login: login,
+    name: name,
+
+    password: password
 }
-
-const Maktab = {
-    numberStudents : 400,
-    teachers: 40,
-    rooms: 25,
-    restrooms: true,
-    gym: false,
-    furniture: ["chair" , "board" , "desk"]
-
-
-}
-
-console.log(Maktab.gym);
+console.log(Maluot);
